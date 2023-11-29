@@ -1,0 +1,174 @@
+* {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.3;
+    color: #fff;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    background-color: rgb(223, 129, 15);
+    z-index: 5;
+}
+
+
+
+.nav-list {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 20px;
+}
+
+ul {
+    font-size: 28px;
+    list-style: none;
+}
+
+li {
+    display: list-item;
+    text-align: center;
+}
+
+li:hover {
+    background-color: rgb(16, 16, 213);
+}
+
+.nav-list a {
+    display: block;
+    font-size: 28px;
+    padding: 20px;
+}
+
+.nav-list a:hover {
+    transform: scale(1.1);
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    display: block;
+}
+
+div,
+p,
+h2 {
+    display: block;
+}
+
+.welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #202020;
+
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h1,
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.welcome-section>p {
+    font-size: 3rem;
+    font-weight: 200;
+    font-style: italic;
+    color: brown;
+}
+
+.projects-section {
+    text-align: center;
+    padding: 10rem 2rem;
+    background: rgb(117, 117, 208);
+}
+
+.project-header {
+    max-width: 640px;
+    margin: 0 auto 6rem auto;
+    border-bottom: 0.2rem solid #fff;
+}
+
+h2 {
+    font-size: 3.2rem;
+    display: block;
+}
+
+.projects-field {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+    padding: 0 2rem;
+    background: rgb(48, 46, 46);
+}
+
+.contact-header>p {
+    font-style: italic;
+    color: gray;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 980px;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+}
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 2px;
+}
+
+footer {
+    font-weight: 300;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    background: rgb(48, 46, 46);
+    border-top: 5px solid red;
+}
+
+@media (max-width: 61.25em) {
+    * {
+        font-size: 58%;
+    }
+    
+}
